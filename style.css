@@ -1,0 +1,55 @@
+body{
+    background: rgba(43,33,3,.4);
+}
+.grid{
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    background: rgba(11, 24, 85,.5);
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid blanchedalmond;
+    box-shadow: 10px 15px 5px black;
+}
+.grid h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background: silver;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+.grid #question{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#btn0, #btn1, #btn2, #btn3{
+    background: #778897;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    border: 1px dotted springgreen;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+    cursor: pointer;
+    background: rgba(11, 24, 85,.5);
+}
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus{
+    outline: 0;
+}
+#progress{
+    color: green;
+    font-size: 30px;
+}
